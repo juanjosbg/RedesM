@@ -1,0 +1,33 @@
+
+
+/* --------------------------------------------- */
+.img_c {
+    height: 90vh;
+    object-fit: cover;
+}
+.cont__carru{
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    top: 45vh;
+}
+
+.cont__carru h5{
+    font-size: 40px;
+    width: 100%;
+    font-weight: 200;
+    background: rgba(0, 0, 0, 0.197);
+    padding: 20px 40px;
+}
+
+.img_p5{
+    background-image: url('https://images.unsplash.com/photo-1617802690658-1173a812650d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 52vh;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.H_p5{
+    color: rgb(167, 167, 167);
+}
