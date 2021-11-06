@@ -1,5 +1,24 @@
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+.Tilt{
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.Sect{
+    background: #000;
+    z-index: 3;
+}
 /* --------------------------------------------- */
 .img_c {
     height: 90vh;
@@ -30,4 +49,56 @@
 }
 .H_p5{
     color: rgb(167, 167, 167);
+}
+/* ---------------------------------------------------- */
+/* esImg */
+.esImg{
+    position: relative;
+    object-position: center; 
+}
+.esImg img{
+    width: 100%;
+    opacity: .2;
+    object-fit: cover;   
+    height: 28rem;
+}
+.VideoO{
+    position: absolute;
+    left: 22%;
+    margin-top: -34%;
+    justify-content: flex-start; }
+
+.videoO{
+    width: 650px; 
+    height: 380px; 
+    box-shadow: rgb(0, 0, 0) 0px 5px 15px;
+    z-index: 1;
+    border-radius: 4px;
+}
+/* -------------------------------------------------- */
+/*  */
+
+/* ----------------------------------------------------------- */
+/* Part of btn up */
+#Top__btn {
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    font-size: 22px;
+    width: 50px;
+    height: 50px;
+    color: #000;
+    border: none;
+    cursor: pointer;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
+
+#Top__btn:hover {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 29px 0px;
+    color: #000;
+    transition: .3s;
 }

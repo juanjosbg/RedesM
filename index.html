@@ -14,12 +14,13 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!-- Icons -->
     <link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/eaa0e8ef53.js" crossorigin="anonymous"></script>
 
 </head>
 
 <body>
     <main>
-        <header class="p-3 bg-dark text-white">
+        <header class="p-3 bg-dark text-white" id="home">
             <div class="container">
                 <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
                     <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
@@ -30,10 +31,10 @@
 
                     <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
                         <li><a href="#" class="nav-link px-2 text-secondary">Home</a></li>
-                        <li><a href="#" class="nav-link px-2 text-white">Features</a></li>
-                        <li><a href="#" class="nav-link px-2 text-white">Pricing</a></li>
-                        <li><a href="#" class="nav-link px-2 text-white">FAQs</a></li>
-                        <li><a href="#" class="nav-link px-2 text-white">About</a></li>
+                        <li><a href="#infoG" class="nav-link px-2 text-white">Features</a></li>
+                        <li><a href="#VideoG" class="nav-link px-2 text-white">Aspecto</a></li>
+                        <li><a href="#CardG" class="nav-link px-2 text-white">Info</a></li>
+                        <li><a href="#GamesG" class="nav-link px-2 text-white">Games</a></li>
                     </ul>
 
                     <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
@@ -85,10 +86,11 @@
 
         <section>
             <div class="container py-4">
-                <div class="pb-3 mb-4 border-bottom">
-                    <a href="/" class="d-flex align-items-center text-dark text-decoration-none">
+                <div class="pb-3 mb-4 border-bottom" id="infoG">
+                    <a class="d-flex align-items-center text-dark text-decoration-none">
                         <br>
-                        <span class="fs-4">Jumbotron example</span>
+                        <span class="fs-4 Tilt">¿Para qué sirven las gafas de realidad virtual?</span>
+                        <i class="fas fa-vr-cardboard p-3 pt-4"></i>
                     </a>
                 </div>
 
@@ -99,7 +101,7 @@
                             the one in previous versions of Bootstrap. Check out the examples below for how you can
                             remix and restyle it to your liking.</p>
                         <button class="btn btn-secondary btn-lg" type="button">
-                            <a href="" style="color: #fff; text-decoration: none;">Conoce más</a>
+                            <a href="https://www.gafasoculus.com/aplicaciones-realidad-virtual/" style="color: #fff; text-decoration: none;" target="_blank">Conocee más</a>
                         </button>
                     </div>
                 </div>
@@ -123,32 +125,145 @@
                         </div>
                     </div>
                 </div>
-                
-                <section>
-                    <div class="">
-                        <div class="pb-3 mb-4 border-bottom">
-                            <a href="/" class="d-flex align-items-center text-dark text-decoration-none">
-                                <br>
-                                <span class="fs-4"></span>
-                            </a>
-                        </div>
-                        
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-lg-6">
 
-                                </div>
-                                
-                                <div class="col-lg-6">
-                                    
-                                </div>
+                <section>
+                    <div class="row justify-content-center" id="VideoG">
+                        <div class="col col-sm-12 col-md-12 col-lg-12">
+                            <div class="pb-3 mb-4 border-bottom pt-5">
+                                <a class="d-flex align-items-center text-dark text-decoration-none">
+                                    <br>
+                                    <span class="fs-4 pt-4 Tilt">¿que Aspecto tienen los Oculus Riff?</span>
+                                    <i class="fas fa-microchip p-3 pt-4"></i>
+                                </a>
+                            </div>
+                            <div class="esImg">
+                                <img src="https://distritoxr.com/wp-content/uploads/2020/10/Quest-2-Contenido.png" alt="">
+                            </div>
+                            <div class="VideoO">
+                                <iframe 
+                                    class="videoO"
+                                    src="https://www.youtube.com/embed/JMz2jQN5jb8" 
+                                    title="YouTube video player" frameborder="0" 
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                    allowfullscreen>
+                                </iframe>                            
                             </div>
                         </div>
                     </div>
                 </section>
 
-                <footer class="pt-3 mt-4 text-muted border-top">
-                    © 2021
+                <section>
+                    <div class="row mt-5 mb-5 align-items-md-stretch" id="CardG">
+                        <div class="col-md-6">
+                            <div class="h-100 p-5 text-white bg-dark rounded-3">
+                                <h2>Change the background</h2>
+                                <p>Swap the background-color utility and add a `.text-*` color utility to mix up the
+                                    jumbotron look. Then, mix and match with additional component themes and more.</p>
+                                <button class="btn btn-outline-light" type="button">Example button</button>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="h-100 p-5 bg-light border rounded-3">
+                                <h2>Add borders</h2>
+                                <p>Or, keep it light and add a border for some added definition to the boundaries of your
+                                    content. Be sure to look under the hood at the source HTML here as we've adjusted the
+                                    alignment and sizing of both column's content for equal-height.</p>
+                                <button class="btn btn-outline-secondary" type="button">Example button</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section>
+                    <div class="" id="GamesG">
+                        <div class="pb-3 mb-4 border-bottom portC">
+                            <a class="d-flex align-items-center text-dark text-decoration-none">
+                                <br>
+                                <span class="fs-4 pt-4 Tilt">¿Para qué sirven las gafas de realidad virtual?</span>
+                                <i class="fas fa-gamepad p-3 pt-5"></i>
+                            </a>
+                        </div>
+                        
+                        <div class="row">
+                            <div class="col col-sm-6 col-lg-6">
+                                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-indicators">
+                                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                    </div>
+                                    <div class="carousel-inner">
+                                      <div class="carousel-item active">
+                                        <iframe 
+                                            width="560" height="415" 
+                                            src="https://www.youtube.com/embed/O2W0N3uKXmo" 
+                                            title="YouTube video player" 
+                                            frameborder="0" 
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                            allowfullscreen>
+                                        </iframe>
+                                      </div>
+                                      <div class="carousel-item">
+                                        <iframe 
+                                            width="560" height="415" 
+                                            src="https://www.youtube.com/embed/BhpnvSIcpAE" 
+                                            title="YouTube video player" 
+                                            frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                            allowfullscreen>
+                                        </iframe>
+                                      </div>
+                                      <div class="carousel-item">
+                                        <iframe 
+                                            width="560" height="415" 
+                                            src="https://www.youtube.com/embed/YO_gz5l7ZB4" 
+                                            title="YouTube video player" 
+                                            frameborder="0" 
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                            allowfullscreen>
+                                        </iframe>
+                                      </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                      <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                      <span class="visually-hidden">Next</span>
+                                    </button>
+                                  </div>
+                            </div>
+                            
+                            <div class="col col-sm-6 col-lg-6">
+                                <div class="h-70 p-5 mt-4 bg-light border rounded-3">
+                                    <h2>VIDEO JUEGOS 360º</h2>
+                                    <p>Hemos estado jugando con Oculus Rift durante un par de años 
+                                        y, en ese tiempo, el catálogo de juegos disponibles y 
+                                        experiencias de realidad virtual ha crecido exponencialmente. 
+                                        Dado que estos juegos también son compatibles con Oculus Rift S , 
+                                        y muchos también funcionarán en Oculus Quest usando Oculus Link, 
+                                        hay una buena lista de juegos para analizar, 
+                                        pero ¿por dónde empezar? Estamos aquí para ayudarlo.
+                                    </p>
+                                    <button class="btn btn-outline-secondary" type="button">
+                                        <a style="text-decoration: none; color: #000;" href="https://www.pocket-lint.com/es-es/ra-y-rv/guias-del-comprador/oculus-rift/129719-oculus-rift-las-mejores-experiencias-y-juegos-disponibles-ahora-mismo"
+                                        target="_blanck"> Más Video Juegos </a>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+                <div id="btn-up" class="">
+                    <a class="btp-ref p-1" id="Top__btn" type="button" href="#home">
+                        <i class="fas fa-chevron-up"></i>
+                    </a>
+                </div>
+                
+                <footer class="pt-3 mt-4 text-muted border-top text-aling-center justify-content-center">
+                    <p>© 2021 Web LAB REDES. Todos los derechos reservados.</p>
                 </footer>
             </div>
         </section>
@@ -157,6 +272,7 @@
     <!-- JS  -->
     <script src="./Js/index.js"></script>
     <!--  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
